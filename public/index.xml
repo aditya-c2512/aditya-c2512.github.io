@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aditya Choubey</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Aditya Choubey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rendering Volumetric Clouds in Cirrus</title>
+      <link>https://example.org/blogs/blog_cirrus/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blogs/blog_cirrus/</guid>
+      <description>STAY TUNED </description>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>https://example.org/posts/main-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/main-post/</guid>
+      <description>Cirrus Elektron Engine V2 </description>
+    </item>
+  </channel>
+</rss>
