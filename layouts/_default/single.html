@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="content-page content-page-narrow">
+    <header class="page-heading">
+        <p class="eyebrow">{{ .Section | default "Portfolio" }}</p>
+        <h1>{{ .Title }}</h1>
+        {{ if not .Date.IsZero }}<p class="page-date">{{ .Date.Format "2 January 2006" }}</p>{{ end }}
+    </header>
+    <div class="article-content">{{ .Content }}</div>
+</article>
+{{ end }}

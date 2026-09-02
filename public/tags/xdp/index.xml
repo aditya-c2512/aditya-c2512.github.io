@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>XDP on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/xdp/</link>
+		<description>Recent content in XDP on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/xdp/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Optimising Network Packet Processing on Low-Power ARM Single-Board Computers</title>
+				<link>http://localhost:1313/projects/msc-dissertation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/msc-dissertation/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This University of Edinburgh MSc dissertation examines whether kernel-bypass networking can reduce communication overhead on low-power ARM single-board computers used in edge-computing clusters. The work uses the Raspberry Pi 5 as its evaluation platform.&lt;/p&gt;&#xA;&lt;h2 id=&#34;primary-contribution&#34;&gt;Primary contribution&lt;/h2&gt;&#xA;&lt;p&gt;The Raspberry Pi 5&amp;rsquo;s onboard Cadence GEM Ethernet controller lacked native XDP support and a DPDK poll-mode driver. I extended its Linux network driver with native XDP and AF_XDP support, enabling an accelerated packet-processing path on the platform.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

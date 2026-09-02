@@ -2,25 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://example.org/blogs/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/af_xdp/</loc>
   </url><url>
-    <loc>https://example.org/blogs/blog_cirrus/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/archer2/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>http://localhost:1313/tags/c/</loc>
   </url><url>
-    <loc>https://example.org/posts/main-post/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
   </url><url>
-    <loc>https://example.org/projects/</loc>
+    <loc>http://localhost:1313/projects/carpoolin/</loc>
   </url><url>
-    <loc>https://example.org/showcase/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/projects/cirrus/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/computer-vision/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/directx-11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/distributed-systems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/dpdk/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/elektron-engine-v2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/factorzero/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/grpc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/hlsl/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ios/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/mpi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/msc-dissertation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/parallel-actor-framework/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/main-post/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/raspberry-pi-5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rendering/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/replication/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ros/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/sandpile-simulation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/showcase/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/swift/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/vulkan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/xdp/</loc>
   </url>
 </urlset>

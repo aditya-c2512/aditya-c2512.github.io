@@ -1,0 +1,127 @@
+summary: >-
+  Computer science engineer specialising in backend and systems engineering, with
+  a focus on distributed systems, concurrency, and performance.
+projects:
+  - title: Optimising Network Packet Processing on Low-Power ARM Single-Board Computers
+    blogPath: msc-dissertation
+    period: 2026
+    category: MSc dissertation
+    accent: blue
+    summary: Extended native XDP support for Raspberry Pi 5 networking and evaluated DPDK-over-AF_XDP against conventional socket paths.
+    highlights:
+      - Added native XDP and AF_XDP support to the Cadence GEM network driver.
+      - Reduced median RTT by 9.41% against TCP and 6.74% against UDP.
+      - Measured 24.1% lower TX cost than TCP and about 52% lower RX cost than both baselines.
+    technologies: [C, Linux, XDP, AF_XDP, DPDK, Raspberry Pi 5]
+  - title: Parallel Actor Framework
+    blogPath: parallel-actor-framework
+    period: February 2026 - March 2026
+    category: Distributed systems
+    accent: blue
+    summary: Distributed actor runtime in C++ and MPI for scalable, message-driven computation across multiple nodes.
+    highlights:
+      - Designed locality-aware actor placement and a partitioned 2D computation model.
+      - Implemented routing and lifecycle management that avoid ID collisions.
+      - Validated the runtime with a distributed Lotka-Volterra simulation.
+    technologies: [C++, MPI, Distributed systems]
+  - title: FactorZero
+    blogPath: factorzero
+    period: November 2025
+    category: Distributed systems
+    accent: green
+    summary: Fault-tolerant distributed file system and parallel workload engine built for unreliable network conditions.
+    highlights:
+      - Combined whole-file caching, primary-backup replication, and heartbeat-based failover.
+      - Built coordinator-worker execution for parallel primality testing with recovery.
+      - Used idempotent gRPC retries, Lamport clocks, and Chandy-Lamport snapshots.
+    technologies: [C++, gRPC, Replication]
+  - title: Sandpile Simulation
+    blogPath: sandpile-simulation
+    period: November 2025
+    category: High-performance computing
+    accent: yellow
+    summary: Distributed 2D sandpile simulation using MPI domain decomposition on ARCHER2.
+    highlights:
+      - Re-architected a sequential simulation for distributed memory execution.
+      - Implemented halo exchange and checked results against the serial model.
+      - Achieved strong scaling up to 1024 processes on ARCHER2.
+    technologies: [C++, MPI, ARCHER2]
+  - title: Elektron Engine V2
+    blogPath: elektron-engine-v2
+    period: 2022 - 2023
+    category: Computer graphics
+    accent: dark
+    summary: DirectX 11 rendering engine exploring production-minded graphics architecture and physically based rendering.
+    repository: https://github.com/aditya-c2512/elektron-v2
+    highlights:
+      - Built GGX shading, HDRI sky rendering, glTF support, and multi-light PBR shading.
+      - Added efficient texture loading, shadow mapping, and an interactive Dear ImGui interface.
+    technologies: [C++, DirectX 11, HLSL]
+  - title: Cirrus
+    blogPath: cirrus
+    period: 2023
+    category: Computer graphics
+    accent: cloud
+    summary: Vulkan volumetric rendering exploration centred on voxel raymarching and cloud rendering.
+    highlights:
+      - Investigated volumetric light transport through a Vulkan-based rendering demo.
+      - Implemented voxel raymarching as the rendering foundation.
+    technologies: [C++, Vulkan, Rendering]
+  - title: CarPoolIn
+    blogPath: carpoolin
+    period: 2023
+    category: Mobile application
+    accent: purple
+    summary: iOS carpooling application designed to reduce friction for people sharing journeys.
+    repository: https://github.com/aditya-c2512/carpoolin-app
+    highlights:
+      - Developed the end-semester application in Swift with a ride-sharing workflow.
+    technologies: [Swift, iOS]
+experience:
+  - company: Traceable by Harness
+    location: Bengaluru, India
+    role: Software Engineer-1
+    period: January 2024 - July 2025
+    summary: Built scalable backend systems processing high-volume API traffic in Linux production environments.
+    highlights:
+      - Redesigned entity creation and traffic heuristics, reducing false APIs processed by 78%.
+      - Reduced storage costs by 43% and improved response time by 21% through system optimisation.
+      - Built attribute-based GraphQL filtering and improved WebSocket traffic classification.
+  - company: Artificial Intelligence and Robotics Laboratory, IISc
+    location: Bengaluru, India
+    role: Systems Design Intern
+    period: January 2023
+    summary: Developed real-time embedded and video systems for UAV operations.
+    highlights:
+      - Built closed-loop antenna tracking firmware that maintained alignment within 2 degrees during UAV manoeuvres.
+      - Integrated a Python operator interface for monitoring, manual override, and flight tests.
+      - Delivered a low-latency video pipeline with under 10 ms end-to-end latency.
+  - company: Project MANAS, MAHE
+    location: Karnataka, India
+    role: Autonomous Systems Team Member
+    period: May 2021 - May 2023
+    summary: Contributed to autonomous ground and aerial systems for MIT's official AI and Robotics team.
+    highlights:
+      - Developed ROS control systems for a self-driving car and autonomous robots, focusing on navigation and system integration.
+      - Designed the imaging pipeline and ODCL web application for AUVSI SUAS 2022, including image classification and data submission.
+      - Contributed to the UAV flight-stabilisation system; the team ranked 18th of 71 globally, second in Flight Readiness Review, and tenth in Technical Design Review.
+education:
+  - institution: University of Edinburgh
+    location: Edinburgh, United Kingdom
+    qualification: MSc Computer Science
+    period: September 2025 - September 2026
+    detail: "Dissertation: Optimising Network Packet Processing on Low-Power ARM Single-Board Computers via DPDK and XDP."
+  - institution: Manipal Institute of Technology, MAHE
+    location: Karnataka, India
+    qualification: BTech Information Technology, Minor in Computer Graphics
+    period: September 2020 - August 2024
+    detail: "GPA: 8.96 / 10."
+skills:
+  - label: Languages
+    value: C, C++, Python, Java, Bash
+  - label: Systems
+    value: Linux, POSIX, memory management, system debugging
+  - label: Distributed computing
+    value: MPI, gRPC, replication, fault tolerance, performance analysis
+  - label: Cloud and delivery
+    value: AWS, Google Cloud, Azure, Docker, Kubernetes, CI/CD

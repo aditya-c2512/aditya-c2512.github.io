@@ -1,0 +1,1 @@
+const themeStorageKey="portfolio-theme";document.querySelector(".theme-toggle")?.addEventListener("click",()=>{const e=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=e,localStorage.setItem(themeStorageKey,e)})

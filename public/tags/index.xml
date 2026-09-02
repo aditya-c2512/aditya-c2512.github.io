@@ -1,11 +1,162 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Aditya Choubey</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on Aditya Choubey</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Tags on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AF_XDP</title>
+				<link>http://localhost:1313/tags/af_xdp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/af_xdp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>ARCHER2</title>
+				<link>http://localhost:1313/tags/archer2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/archer2/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>C</title>
+				<link>http://localhost:1313/tags/c/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/c/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>C&#43;&#43;</title>
+				<link>http://localhost:1313/tags/c&#43;&#43;/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Computer Vision</title>
+				<link>http://localhost:1313/tags/computer-vision/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/computer-vision/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>DirectX 11</title>
+				<link>http://localhost:1313/tags/directx-11/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/directx-11/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Distributed Systems</title>
+				<link>http://localhost:1313/tags/distributed-systems/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/distributed-systems/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>DPDK</title>
+				<link>http://localhost:1313/tags/dpdk/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/dpdk/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>GRPC</title>
+				<link>http://localhost:1313/tags/grpc/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/grpc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>HLSL</title>
+				<link>http://localhost:1313/tags/hlsl/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/hlsl/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>IOS</title>
+				<link>http://localhost:1313/tags/ios/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ios/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>http://localhost:1313/tags/linux/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>MPI</title>
+				<link>http://localhost:1313/tags/mpi/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/mpi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Python</title>
+				<link>http://localhost:1313/tags/python/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/python/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Raspberry Pi 5</title>
+				<link>http://localhost:1313/tags/raspberry-pi-5/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/raspberry-pi-5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rendering</title>
+				<link>http://localhost:1313/tags/rendering/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/rendering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Replication</title>
+				<link>http://localhost:1313/tags/replication/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/replication/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>ROS</title>
+				<link>http://localhost:1313/tags/ros/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ros/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Swift</title>
+				<link>http://localhost:1313/tags/swift/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/swift/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Vulkan</title>
+				<link>http://localhost:1313/tags/vulkan/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/vulkan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>XDP</title>
+				<link>http://localhost:1313/tags/xdp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/xdp/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

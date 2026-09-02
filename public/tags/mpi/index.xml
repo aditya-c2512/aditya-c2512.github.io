@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>MPI on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/mpi/</link>
+		<description>Recent content in MPI on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/mpi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Parallel Actor Framework</title>
+				<link>http://localhost:1313/projects/parallel-actor-framework/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/parallel-actor-framework/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Parallel Actor Framework is a distributed actor-model runtime written in C++ with MPI. It explores asynchronous, message-driven execution across multiple nodes for compute-intensive simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A partitioned two-dimensional computation model with locality-aware actor placement to reduce inter-process communication.&lt;/li&gt;&#xA;&lt;li&gt;Message routing and actor lifecycle management designed to avoid identifier collisions and preserve correctness across distributed processes.&lt;/li&gt;&#xA;&lt;li&gt;A Lotka-Volterra predator-prey workload used to validate the runtime&amp;rsquo;s behaviour and scaling characteristics.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;engineering-focus&#34;&gt;Engineering focus&lt;/h2&gt;&#xA;&lt;p&gt;I used systematic debugging and profiling to identify MPI memory leaks and communication bottlenecks, improving stability during long-running executions.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sandpile Simulation</title>
+				<link>http://localhost:1313/projects/sandpile-simulation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/sandpile-simulation/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project re-architects a sequential two-dimensional sandpile simulation as a distributed-memory system for high-performance computing infrastructure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two-dimensional domain decomposition to partition the simulation across MPI processes.&lt;/li&gt;&#xA;&lt;li&gt;Halo exchange for boundaries between neighbouring process regions.&lt;/li&gt;&#xA;&lt;li&gt;Validation against the serial implementation to confirm the distributed simulation remains correct.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The implementation achieved strong scaling up to 1024 processes on ARCHER2. Profiling identified communication overhead as the primary scaling constraint.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

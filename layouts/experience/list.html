@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $portfolio := .Site.Data.portfolio }}
+<section class="content-page cv-page">
+    <header class="page-heading">
+        <p class="eyebrow">Professional background</p>
+        <h1>{{ .Title }}</h1>
+        <p class="page-lede">{{ $portfolio.summary }}</p>
+    </header>
+    <section class="cv-section" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="cv-list">
+            {{ range $portfolio.education }}
+            <article class="cv-entry"><div><h3>{{ .qualification }}</h3><p>{{ .institution }} <span>{{ .location }}</span></p><p>{{ .detail }}</p></div><time>{{ .period }}</time></article>
+            {{ end }}
+        </div>
+    </section>
+    <section class="cv-section" aria-labelledby="skills-title">
+        <h2 id="skills-title">Technical skills</h2>
+        <dl class="skills-list">
+            {{ range $portfolio.skills }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}
+        </dl>
+    </section>
+    <section class="cv-section" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <div class="experience-list">
+            {{ range $portfolio.experience }}
+            <article class="experience-entry">
+                <div class="experience-meta"><p>{{ .period }}</p><p>{{ .location }}</p></div>
+                <div class="experience-content">
+                    <p class="experience-company">{{ .company }}</p>
+                    <h3>{{ .role }}</h3>
+                    <p>{{ .summary }}</p>
+                    <ul>{{ range .highlights }}<li>{{ . }}</li>{{ end }}</ul>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+</section>
+{{ end }}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>IOS on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/ios/</link>
+		<description>Recent content in IOS on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CarPoolIn</title>
+				<link>http://localhost:1313/projects/carpoolin/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/carpoolin/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;CarPoolIn is an iOS application developed in Swift as an end-semester project. It explores a ride-sharing workflow that helps travellers find and coordinate shared journeys.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A native iOS application that supports the core carpooling and ride-sharing flow.&lt;/li&gt;&#xA;&lt;li&gt;Interfaces and supporting application logic for reducing coordination friction between people travelling similar routes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://docs.google.com/presentation/d/11sb5XpndWrRtuUQnaT_FRP0lWU55F0IrpgC2l7jIsO4/edit?usp=sharing&#34;&gt;project presentation&lt;/a&gt; provides additional context.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

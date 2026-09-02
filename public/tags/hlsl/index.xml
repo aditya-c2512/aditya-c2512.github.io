@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>HLSL on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/hlsl/</link>
+		<description>Recent content in HLSL on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/hlsl/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Elektron Engine V2</title>
+				<link>http://localhost:1313/projects/elektron-engine-v2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/elektron-engine-v2/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Elektron Engine V2 is a DirectX 11 rendering engine built to explore organised, efficient graphics programming and physically based rendering techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GGX-based diffuse and specular shading, HDRI sky rendering, and PBR shading with arbitrary point lights.&lt;/li&gt;&#xA;&lt;li&gt;glTF, Wavefront OBJ, and material loading with a texture-loading pipeline based on Assimp and DirectXTex.&lt;/li&gt;&#xA;&lt;li&gt;Shadow mapping, normal mapping, and a Dear ImGui-based interactive interface.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;Stack&lt;/h2&gt;&#xA;&lt;p&gt;The project is written primarily in C++ and HLSL, using DirectX 11 with Assimp, DirectXTex, and Dear ImGui.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

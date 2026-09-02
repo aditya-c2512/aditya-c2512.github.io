@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="content-page showcase-page">
+    <header class="page-heading showcase-heading">
+        <p class="eyebrow">Watch</p>
+        <h1>{{ .Title }}</h1>
+        <p class="page-lede">{{ .Description }}</p>
+    </header>
+    <div class="carousel-shell">
+        <div class="carousel-controls" aria-label="Showcase controls">
+            <button class="carousel-button" type="button" data-carousel-direction="previous" aria-label="Previous showcase item" title="Previous showcase item">&larr;</button>
+            <button class="carousel-button" type="button" data-carousel-direction="next" aria-label="Next showcase item" title="Next showcase item">&rarr;</button>
+        </div>
+        <div class="showcase-carousel" tabindex="0" aria-label="Showcase videos">
+            <article class="showcase-slide">
+                <div class="showcase-video"><iframe src="https://www.youtube-nocookie.com/embed/X6_J687WfsY" title="Elektron Engine V2 showcase one" loading="lazy" allowfullscreen></iframe></div>
+                <div><p class="eyebrow">01 / 05</p><h2>Elektron Engine V2</h2><p>DirectX 11 graphics engine showcasing physically based rendering and real-time materials.</p></div>
+            </article>
+            <article class="showcase-slide">
+                <div class="showcase-video"><iframe src="https://www.youtube-nocookie.com/embed/F3jkZqNPX3w" title="Elektron Engine V2 showcase two" loading="lazy" allowfullscreen></iframe></div>
+                <div><p class="eyebrow">02 / 05</p><h2>Elektron Engine V2</h2><p>Additional real-time rendering work from the engine.</p></div>
+            </article>
+            <article class="showcase-slide">
+                <div class="showcase-video"><iframe src="https://www.youtube-nocookie.com/embed/t3r2ZR3iCNk" title="Unreal Engine 4.25 C++ showcase" loading="lazy" allowfullscreen></iframe></div>
+                <div><p class="eyebrow">03 / 05</p><h2>Unreal Engine 4.25 C++</h2><p>Interactive systems and graphics work built in Unreal Engine.</p></div>
+            </article>
+            <article class="showcase-slide">
+                <div class="showcase-video"><iframe src="https://www.youtube-nocookie.com/embed/ZRKy3dcenE0" title="Stanley lateral control simulation one" loading="lazy" allowfullscreen></iframe></div>
+                <div><p class="eyebrow">04 / 05</p><h2>Stanley Control Simulation</h2><p>Lateral control on Bezier curves with an Ackermann steering model in Unreal Engine.</p></div>
+            </article>
+            <article class="showcase-slide">
+                <div class="showcase-video"><iframe src="https://www.youtube-nocookie.com/embed/21YZjZemwgM" title="Stanley lateral control simulation two" loading="lazy" allowfullscreen></iframe></div>
+                <div><p class="eyebrow">05 / 05</p><h2>Stanley Control Simulation</h2><p>Further simulation output from the vehicle-control implementation.</p></div>
+            </article>
+        </div>
+    </div>
+</section>
+{{ end }}

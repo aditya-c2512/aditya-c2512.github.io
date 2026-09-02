@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="content-page">
+    <header class="page-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h1>{{ .Title }}</h1>
+        {{ with .Content }}<div class="article-content">{{ . }}</div>{{ end }}
+    </header>
+    {{ if .Pages }}
+    <div class="content-list">
+        {{ range .Pages.ByDate.Reverse }}
+        <a class="content-list-item" href="{{ .RelPermalink }}">
+            <span>{{ .Date.Format "Jan 2006" }}</span>
+            <h2>{{ .Title }}</h2>
+            <span aria-hidden="true">&rarr;</span>
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
+{{ end }}

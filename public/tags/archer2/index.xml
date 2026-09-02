@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ARCHER2 on Aditya Choubey</title>
+		<link>http://localhost:1313/tags/archer2/</link>
+		<description>Recent content in ARCHER2 on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/archer2/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sandpile Simulation</title>
+				<link>http://localhost:1313/projects/sandpile-simulation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/sandpile-simulation/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project re-architects a sequential two-dimensional sandpile simulation as a distributed-memory system for high-performance computing infrastructure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two-dimensional domain decomposition to partition the simulation across MPI processes.&lt;/li&gt;&#xA;&lt;li&gt;Halo exchange for boundaries between neighbouring process regions.&lt;/li&gt;&#xA;&lt;li&gt;Validation against the serial implementation to confirm the distributed simulation remains correct.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The implementation achieved strong scaling up to 1024 processes on ARCHER2. Profiling identified communication overhead as the primary scaling constraint.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

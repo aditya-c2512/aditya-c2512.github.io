@@ -1,26 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aditya Choubey</title>
-    <link>https://example.org/</link>
-    <description>Recent content on Aditya Choubey</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rendering Volumetric Clouds in Cirrus</title>
-      <link>https://example.org/blogs/blog_cirrus/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/blogs/blog_cirrus/</guid>
-      <description>STAY TUNED </description>
-    </item>
-    <item>
-      <title>Posts</title>
-      <link>https://example.org/posts/main-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/main-post/</guid>
-      <description>Cirrus Elektron Engine V2 </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Aditya Choubey</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Aditya Choubey</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CarPoolIn</title>
+				<link>http://localhost:1313/projects/carpoolin/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/carpoolin/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;CarPoolIn is an iOS application developed in Swift as an end-semester project. It explores a ride-sharing workflow that helps travellers find and coordinate shared journeys.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A native iOS application that supports the core carpooling and ride-sharing flow.&lt;/li&gt;&#xA;&lt;li&gt;Interfaces and supporting application logic for reducing coordination friction between people travelling similar routes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://docs.google.com/presentation/d/11sb5XpndWrRtuUQnaT_FRP0lWU55F0IrpgC2l7jIsO4/edit?usp=sharing&#34;&gt;project presentation&lt;/a&gt; provides additional context.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cirrus</title>
+				<link>http://localhost:1313/projects/cirrus/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/cirrus/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Cirrus is a Vulkan-based volumetric rendering exploration focused on the foundations required for cloud rendering.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-explored&#34;&gt;What I explored&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Voxel raymarching for traversing and accumulating volumetric density.&lt;/li&gt;&#xA;&lt;li&gt;Volumetric light-transport techniques relevant to rendering cloud data.&lt;/li&gt;&#xA;&lt;li&gt;A rendering path intended to support experimentation with the Disney Clouds dataset.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;related-writing&#34;&gt;Related writing&lt;/h2&gt;&#xA;&lt;p&gt;Read the &lt;a href=&#34;http://localhost:1313/blogs/blog_cirrus/&#34;&gt;Cirrus development note&lt;/a&gt; for project updates.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Elektron Engine V2</title>
+				<link>http://localhost:1313/projects/elektron-engine-v2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/elektron-engine-v2/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Elektron Engine V2 is a DirectX 11 rendering engine built to explore organised, efficient graphics programming and physically based rendering techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GGX-based diffuse and specular shading, HDRI sky rendering, and PBR shading with arbitrary point lights.&lt;/li&gt;&#xA;&lt;li&gt;glTF, Wavefront OBJ, and material loading with a texture-loading pipeline based on Assimp and DirectXTex.&lt;/li&gt;&#xA;&lt;li&gt;Shadow mapping, normal mapping, and a Dear ImGui-based interactive interface.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;stack&#34;&gt;Stack&lt;/h2&gt;&#xA;&lt;p&gt;The project is written primarily in C++ and HLSL, using DirectX 11 with Assimp, DirectXTex, and Dear ImGui.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FactorZero</title>
+				<link>http://localhost:1313/projects/factorzero/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/factorzero/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;FactorZero is a fault-tolerant distributed file system paired with a parallel workload engine. The project focuses on maintaining correctness and availability when nodes or network communication fail.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A distributed file system with whole-file caching, primary-backup replication, and heartbeat-based failover.&lt;/li&gt;&#xA;&lt;li&gt;A coordinator-worker engine for distributing large-scale primality-testing tasks with recovery.&lt;/li&gt;&#xA;&lt;li&gt;Idempotent gRPC retry semantics and Lamport clocks for ordered result aggregation in unreliable network conditions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;validation&#34;&gt;Validation&lt;/h2&gt;&#xA;&lt;p&gt;I verified global-state consistency with Chandy-Lamport snapshots and benchmarked throughput under varied failure scenarios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Optimising Network Packet Processing on Low-Power ARM Single-Board Computers</title>
+				<link>http://localhost:1313/projects/msc-dissertation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/msc-dissertation/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This University of Edinburgh MSc dissertation examines whether kernel-bypass networking can reduce communication overhead on low-power ARM single-board computers used in edge-computing clusters. The work uses the Raspberry Pi 5 as its evaluation platform.&lt;/p&gt;&#xA;&lt;h2 id=&#34;primary-contribution&#34;&gt;Primary contribution&lt;/h2&gt;&#xA;&lt;p&gt;The Raspberry Pi 5&amp;rsquo;s onboard Cadence GEM Ethernet controller lacked native XDP support and a DPDK poll-mode driver. I extended its Linux network driver with native XDP and AF_XDP support, enabling an accelerated packet-processing path on the platform.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Parallel Actor Framework</title>
+				<link>http://localhost:1313/projects/parallel-actor-framework/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/parallel-actor-framework/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Parallel Actor Framework is a distributed actor-model runtime written in C++ with MPI. It explores asynchronous, message-driven execution across multiple nodes for compute-intensive simulations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A partitioned two-dimensional computation model with locality-aware actor placement to reduce inter-process communication.&lt;/li&gt;&#xA;&lt;li&gt;Message routing and actor lifecycle management designed to avoid identifier collisions and preserve correctness across distributed processes.&lt;/li&gt;&#xA;&lt;li&gt;A Lotka-Volterra predator-prey workload used to validate the runtime&amp;rsquo;s behaviour and scaling characteristics.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;engineering-focus&#34;&gt;Engineering focus&lt;/h2&gt;&#xA;&lt;p&gt;I used systematic debugging and profiling to identify MPI memory leaks and communication bottlenecks, improving stability during long-running executions.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Posts</title>
+				<link>http://localhost:1313/posts/main-post/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/main-post/</guid>
+				<description>&lt;h2 id=&#34;cirrus&#34;&gt;Cirrus&lt;/h2&gt;&#xA;&lt;h2 id=&#34;elektron-engine-v2&#34;&gt;Elektron Engine V2&lt;/h2&gt;</description>
+			</item>
+			<item>
+				<title>Sandpile Simulation</title>
+				<link>http://localhost:1313/projects/sandpile-simulation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/sandpile-simulation/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project re-architects a sequential two-dimensional sandpile simulation as a distributed-memory system for high-performance computing infrastructure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-built&#34;&gt;What I built&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two-dimensional domain decomposition to partition the simulation across MPI processes.&lt;/li&gt;&#xA;&lt;li&gt;Halo exchange for boundaries between neighbouring process regions.&lt;/li&gt;&#xA;&lt;li&gt;Validation against the serial implementation to confirm the distributed simulation remains correct.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;The implementation achieved strong scaling up to 1024 processes on ARCHER2. Profiling identified communication overhead as the primary scaling constraint.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

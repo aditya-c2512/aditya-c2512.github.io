@@ -1,0 +1,82 @@
+{{ define "main" }}
+<div class="portfolio-home">
+    <section class="portfolio-intro" aria-labelledby="intro-title">
+        <p class="eyebrow">Systems and performance engineering</p>
+        <h1 id="intro-title">Aditya Choubey</h1>
+        <p class="intro-copy">MSc Computer Science graduate from the University of Edinburgh, building reliable distributed systems and high-performance software.</p>
+        <div class="intro-actions">
+            <a class="primary-action" href="{{ "/experience/" | relURL }}">{{ partial "icon.html" "experience" }}<span>View experience</span></a>
+            <a class="text-action" href="#contact">Get in touch <span aria-hidden="true">&rarr;</span></a>
+        </div>
+    </section>
+
+    <section class="portfolio-section" aria-labelledby="focus-title">
+        <div class="section-heading">
+            <p class="eyebrow">Current focus</p>
+            <h2 id="focus-title">Distributed Systems and High-Performance Computing</h2>
+        </div>
+        <div class="focus-grid">
+            <article class="focus-item">
+                <span class="focus-index">01</span>
+                <h3>Distributed systems</h3>
+                <p>Fault tolerance, replication, gRPC, and message-driven systems that remain correct under pressure.</p>
+            </article>
+            <article class="focus-item">
+                <span class="focus-index">02</span>
+                <h3>Parallel computing</h3>
+                <p>MPI-based runtimes and simulations designed to scale across multi-node compute infrastructure.</p>
+            </article>
+            <article class="focus-item">
+                <span class="focus-index">03</span>
+                <h3>Linux performance</h3>
+                <p>Researching kernel-bypass techniques for faster network packet processing on Raspberry Pi systems.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="portfolio-section projects-preview" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row">
+            <div>
+                <p class="eyebrow">Selected work</p>
+                <h2 id="projects-title">Projects</h2>
+            </div>
+            <a class="text-action" href="{{ "/projects/" | relURL }}">All projects <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="project-grid">
+            <a class="project-card project-card-cirrus" href="{{ "/projects/" | relURL }}">
+                <div class="project-card-art"><span>ACTORS</span></div>
+                <div class="project-card-copy">
+                    <div><h3>Parallel Actor Framework</h3><p>C++ and MPI runtime</p></div>
+                    <span class="project-arrow" aria-hidden="true">&nearr;</span>
+                </div>
+            </a>
+            <a class="project-card" href="{{ "/projects/" | relURL }}">
+                <div class="project-card-art project-card-art-image">
+                    <img src="{{ "/images/elektron_v2_logo.png" | relURL }}" alt="Elektron Engine V2 logo">
+                </div>
+                <div class="project-card-copy">
+                    <div><h3>FactorZero</h3><p>Fault-tolerant file system</p></div>
+                    <span class="project-arrow" aria-hidden="true">&nearr;</span>
+                </div>
+            </a>
+            <a class="project-card project-card-carpool" href="{{ "/projects/" | relURL }}">
+                <div class="project-card-art"><span>1024</span></div>
+                <div class="project-card-copy">
+                    <div><h3>Sandpile Simulation</h3><p>MPI on ARCHER2</p></div>
+                    <span class="project-arrow" aria-hidden="true">&nearr;</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let's build something that holds up.</h2>
+        <div class="contact-links">
+            {{ range .Site.Params.SocialIcons }}
+            <a href="{{ .url }}" {{ if hasPrefix .url "http" }}target="_blank" rel="noreferrer"{{ end }}>{{ partial "icon.html" .name }}<span>{{ .name }}</span><span aria-hidden="true">&nearr;</span></a>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

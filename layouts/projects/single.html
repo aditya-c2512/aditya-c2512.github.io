@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="content-page content-page-narrow project-detail">
+    <header class="page-heading">
+        <a class="back-link" href="{{ "/projects/" | relURL }}">&larr; All projects</a>
+        <p class="eyebrow">{{ .Params.category }}</p>
+        <h1>{{ .Title }}</h1>
+        <p class="page-lede">{{ .Description }}</p>
+        <div class="project-detail-meta">
+            {{ with .Params.period }}<span>{{ . }}</span>{{ end }}
+            {{ with .Params.tags }}{{ range . }}<span>{{ . }}</span>{{ end }}{{ end }}
+        </div>
+        {{ with .Params.repository }}<a class="project-repository" href="{{ . }}" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">&nearr;</span></a>{{ end }}
+    </header>
+    <div class="article-content">{{ .Content }}</div>
+</article>
+{{ end }}

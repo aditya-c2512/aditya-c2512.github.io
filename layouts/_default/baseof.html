@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" data-theme="light">
+    {{- $avatarImgSrc := .Site.Params.AvatarURL -}}
+    {{- if and (isset site.Params "avatarURL") (not (hasPrefix $avatarImgSrc "http")) -}}
+        {{- $avatarImgSrc = (urls.JoinPath $.Site.BaseURL ($.Site.Params.AvatarURL | default "")) -}}
+    {{- end -}}
+    {{- .Scratch.Set "avatarImgSrc" $avatarImgSrc -}}
+
+    {{- partial "head.html" . -}}
+    <body>
+        <script type="text/javascript">
+            document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") ||
+                (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        </script>
+        {{- partial "header.html" . -}}
+        <main id="content">
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+        {{ $siteJS := resources.Get "js/portfolio.js" | minify | fingerprint }}
+        <script src="{{ $siteJS.RelPermalink }}" integrity="{{ $siteJS.Data.Integrity }}"></script>
+    </body>
+</html>

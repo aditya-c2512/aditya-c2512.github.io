@@ -1,0 +1,11 @@
+<footer class="site-footer">
+    <div>
+        <p>Aditya Choubey</p>
+        <span>Computer Science MSc student at the University of Edinburgh.</span>
+    </div>
+    <div class="footer-links">
+        {{ range .Site.Params.SocialIcons }}
+        <a href="{{ .url }}" {{ if hasPrefix .url "http" }}target="_blank" rel="noreferrer"{{ end }}>{{ partial "icon.html" .name }}<span>{{ .name }}</span></a>
+        {{ end }}
+    </div>
+</footer>

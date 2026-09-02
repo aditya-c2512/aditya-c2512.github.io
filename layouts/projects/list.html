@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $portfolio := .Site.Data.portfolio }}
+<section class="content-page gallery-page">
+    <header class="page-heading gallery-heading">
+        <p class="eyebrow">Selected work</p>
+        <h1>{{ .Title }}</h1>
+        <p class="page-lede">{{ .Description }}</p>
+    </header>
+    <div class="project-gallery">
+        {{ range $portfolio.projects }}
+        {{ $projectPage := site.GetPage (printf "/projects/%s" .blogPath) }}
+        <a class="gallery-card gallery-card-{{ .accent }}" href="{{ $projectPage.RelPermalink }}">
+            <div class="gallery-card-cover">
+                <span>{{ .category }}</span>
+                <p>{{ .period }}</p>
+            </div>
+            <div class="gallery-card-body">
+                <h2>{{ .title }}</h2>
+                <p>{{ .summary }}</p>
+                <ul class="tag-list" aria-label="Technologies">
+                    {{ range .technologies }}<li>{{ . }}</li>{{ end }}
+                </ul>
+                <ul class="card-highlights">
+                    {{ range .highlights }}<li>{{ . }}</li>{{ end }}
+                </ul>
+                <span class="card-link">Read project <span aria-hidden="true">&rarr;</span></span>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
