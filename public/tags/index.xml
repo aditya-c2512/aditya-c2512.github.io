@@ -40,13 +40,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Computer Vision</title>
-				<link>http://localhost:1313/tags/computer-vision/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/computer-vision/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>DirectX 11</title>
 				<link>http://localhost:1313/tags/directx-11/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -103,13 +96,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Python</title>
-				<link>http://localhost:1313/tags/python/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/python/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Raspberry Pi 5</title>
 				<link>http://localhost:1313/tags/raspberry-pi-5/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -128,13 +114,6 @@
 				<link>http://localhost:1313/tags/replication/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/tags/replication/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>ROS</title>
-				<link>http://localhost:1313/tags/ros/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ros/</guid>
 				<description></description>
 			</item>
 			<item>

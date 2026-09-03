@@ -8,8 +8,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/archer2/</loc>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/c/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
@@ -19,8 +17,6 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/cirrus/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/directx-11/</loc>
   </url><url>
@@ -54,15 +50,11 @@
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/raspberry-pi-5/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/rendering/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/replication/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/ros/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/sandpile-simulation/</loc>
   </url><url>
